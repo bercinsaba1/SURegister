@@ -1,6 +1,6 @@
 # java-spring-backend
 
-This is only the backend of the project. The project still continues for the frontend side.
+This is only the backend part of the project. The project still continues for the frontend side.
 
 Project Overview:
 We designed a program that will be helpful to Sabancı University students during course registrations and add-drop period. The program will take the data from Sabanci university student resource website and show the users if the class they are planning to register is empty or not, moreover it will calculate and show the possibility they may register the class according to other users’ inputs. The program allows users to see how many people are planning to take the courses they choose before the course registration day, and they can plan  their schedule accordingly. For instance, if there are too many people planning to take the course on the first day of the course registrations in case the user won’t be able to take the course on the first day since priority may be given to senior students on the first day of the registrations, he/she may consider other course options. In our program we might provide users the option to choose which registration day they are planning to take the course.  In order to prevent extra user inputs for courses we might limit users input numbers for each term accordingly, Sabanci university regulations since it allows 20 credits for each term. 
