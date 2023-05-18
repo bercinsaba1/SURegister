@@ -1,4 +1,4 @@
-# java-spring-backend
+# java-spring-mongodb-backend
 
 This is only the backend part of the project. The project still continues for the frontend side.
 
