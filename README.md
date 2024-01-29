@@ -1,19 +1,34 @@
-SuRegister-AndroidApp
+# SuRegister-AndroidApp
 
-Android Frontend Test Video: https://drive.google.com/file/d/1263EFugiky_WjqDZiXRXWCmZsOaCo2C3/view?usp=sharing
+[Android Frontend Test Video](https://github.com/erenito/SUregister_Android_App/blob/main/ProjectFrontEnd.mp4)
 
-RestfulAPI Test Video: https://drive.google.com/file/d/1ZGYMdUOLQJOxKQG47s_YqMt7erJM5Ass/view?usp=sharing
+[RestfulAPI Test Video](https://github.com/erenito/SUregister_Android_App/blob/main/RestfulAPITest.mp4)
 
-Project Overview:
-We designed a program that will be helpful to Sabancı University students during course registrations and add-drop period. The program will take the data from Sabanci university student resource website and show the users if the class they are planning to register is empty or not, moreover it will calculate and show the possibility they may register the class according to other users’ inputs. The program allows users to see how many people are planning to take the courses they choose before the course registration day, and they can plan  their schedule accordingly. For instance, if there are too many people planning to take the course on the first day of the course registrations in case the user won’t be able to take the course on the first day since priority may be given to senior students on the first day of the registrations, he/she may consider other course options. In our program we might provide users the option to choose which registration day they are planning to take the course.  In order to prevent extra user inputs for courses we might limit users input numbers for each term accordingly, Sabanci university regulations since it allows 20 credits for each term. 
-As we ourselves experienced as well, there are some issues regarding the capacities of the courses in Sabancı University. Since Sabancı University is a faculty-department free university(referring that any student can choose different classes regardless of their department)  it is difficult to foresee the number of  students planning to take the courses. Therefore, students may be surprised with the “Course capacity is full” warnings which might affect their course registration process negatively. For these reasons our programs will be beneficial and useful.
+## Project Overview
 
-Objective and Scope of the Project:
-We believe that the completion of this project will enable Sabancı University students to spend their add-drop and course selection periods more efficiently. At the back-end of the project, firstly, we aim to provide information on the capacity of the courses and course registration days information which we will take that informations from Sabancı University's system, secondly, the user’s education level (Senior, Junior, Sophomore etc.) in order to detect which day they take the class earliest , finally which courses they intend to take. According to data , we will provide a probability according to other user’s inputs(if they plan to take the course or not)  and show users which day they will be able to take this course at the earliest. Therefore, our project has endpoints for each course that will be opened in the specific semester(ie. as much as num of courses in Spring 2023). In the front-end development of the application, our app will  have a main page (i.e. shows the list of courses in that specific semester and how many people are planning to take this course), a user panel page(i.e. take inputs as to their education level and which major they are etc.) and pages for particular courses(i.e. contains “I am planning to attend” button, the probability of attending course and general information about the course) . In total we are planning to have 3-4 screens in our application. 
+We designed a program that will be helpful to Sabancı University students during course registrations and add-drop period. The program will take data from the Sabanci University student resource website and show users if the class they are planning to register for is empty or not. Moreover, it will calculate and show the possibility they may register for the class based on other users’ inputs. The program allows users to see how many people are planning to take the courses they choose before the course registration day, enabling them to plan their schedule accordingly.
 
-Background and Current Practice:
-There are two main examples that are similar to the proposed project area which are CampusNet and SUchedule since they are both correlated with course selection. Firstly, CampusNet creates a area for Sabanci students to recommend courses, make comments on courses and professors, share their course plan; however, it is hard to follow recommendations about specific courses since they are written in separate posts. On the other hand, SUregister  aims to provide course comments under the course section to fix this problem. Also, it is not possible to follow the number of students who plan to study a specific course in CampusNet unlike SUregister since there will be “I am planning to attend” button under every course section. Secondly, SUchedule provides students to plan their semesters according to the date and the time period of the course; however, students cannot make any comments or share their plans about their semester with other students and professors. SUregister intends to provide students with the knowledge and tools needed to address any limitations or shortcomings of these websites.
+## Objective and Scope of the Project
 
+The completion of this project aims to enable Sabancı University students to spend their add-drop and course selection periods more efficiently. At the back-end, we aim to provide information on course capacity and registration days, the user’s education level, and their intended courses. In the front-end, our app will have a main page, a user panel page, and pages for particular courses, totaling 3-4 screens.
 
-Potential Customer/User Description:
-There may be different sorts of issues while Sabancı University students adding or dropping lessons into their calendars. Especially since capacities of some lessons and recitations are restricted, Sabancı University students may not add all the lessons they want or may not create their schedule as they want. Therefore, this system will tell students about the lessons which are risky to take and  will warn students to plan other possible schedules. Our program will be used by Sabancı University students. It will be really beneficial especially for students who are not sure about the lessons they will add and the students who need to prepare different schedules as well. Also, since it will be a pilot example it may be designed for other universities as well. It will be a useful program for the education sector.
+## Background and Current Practice
+
+CampusNet and SUchedule are two main examples in the proposed project area. CampusNet allows students to recommend courses and make comments, but lacks specific course tracking. SUchedule helps in semester planning but does not allow comments or sharing plans. SUregister aims to address these limitations.
+
+## Potential Customer/User Description
+
+Our system will inform Sabancı University students about risky courses and prompt them to plan alternative schedules. The program targets students unsure about their course selections and those needing to prepare different schedules.
+
+## Contributors
+
+- Yusuf Eren Akgün
+- Berçin Saba Güngör
+- Halil İbrahim Umut Çolak
+- Furkan Emre Güler
+
+## Navigation Diagram
+
+For a visual representation of the app's structure and navigation flow, see the navigation diagram:
+
+![alt text](https://github.com/erenito/SUregister_Android_App/blob/main/Project_Navigation_Diagram.png?raw=true).
